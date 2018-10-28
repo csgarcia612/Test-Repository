@@ -1,0 +1,105 @@
+<script>
+    var numOfFollowers = 29;
+    numOfFollowers*=2;
+    console.log(numOfFollowers);
+    numOfFollowers--;
+    console.log(numOfFollowers);
+    numOfFollowers+=5;
+    console.log(numOfFollowers);
+    console.log(numOfFollowers%2);
+</script>
+
+<script>
+    var age = 2018-1990;
+    var legal = age>=18;
+    var rentalElligible = age>=25;
+    var seniorDiscount = age>=65;
+    console.log("Legal Adult:"+legal);
+    console.log("Rent a Car:"+rentalElligible);
+    console.log("Senior Discount:"+seniorDiscount);
+</script>
+
+<script>
+    var testNumber = "Fifteen";
+
+    if(testNumber<10){
+        console.log("That is a small number");
+    }
+    else if(testNumber>=10){
+        console.log("That is a large number");
+    }
+    else{
+        console.log("That's not a number");
+    };
+</script>
+
+<script>
+    var testVehicle = {
+        type:"Sedan",
+        color:"Blue"
+    };
+
+    if (testVehicle.type=="Truck"){
+        if (testVehicle.color=="Red"){
+            console.log("Red Trucks go in Garage 1");
+        } else if (testVehicle.color=="Blue"){
+            console.log("Blue Trucks go in Garage 2");
+        };
+    } else {
+        console.log("Only Trucks Allowed")
+    };
+</script>
+
+<script>
+    function faveHero (hero){
+        if (hero=="Iron Man"){
+            return "Hey, mine too!"
+        }else if (hero=="Green Lantern"){
+            return "I guess that hero is ok"
+        }else {
+            return hero+" is lame!"
+        };
+    };
+    console.log(faveHero("Spawn"))
+</script>
+
+<script>
+    function addTogether(num1, num2){
+        console.log(num1+num2);
+    };
+    addTogether(5, 7)
+    addTogether("Hi", " There")
+</script>
+
+<script>
+    function complexMath(num1, num2){
+        num1*=7
+        num2/=2
+        num1+=num2
+        console.log(num1*num2)
+    };
+    complexMath(3,7)
+    complexMath(1215,6)
+</script>
+
+<script>
+    function addFirstThree(array){
+        var total;
+        total=array[0]+array[1]+array[2]
+        console.log(total);
+    };
+
+    var testArray = ["George"," Bernard"," Shaw"]
+    addFirstThree(testArray)
+</script>
+
+<script>
+    var counting = 4;
+
+    function increment(addOne){
+        counting=addOne+1;
+        console.log(counting);
+    };
+
+    increment(counting);
+</script>
